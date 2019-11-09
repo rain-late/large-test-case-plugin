@@ -1,0 +1,19 @@
+{
+  "name": "large-test-case-plugin",
+  "version": "1.22.0",
+  "description": "加法打包 test case",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prepare": "webpack"
+  },
+  "keywords": [],
+  "author": "rain.late",
+  "license": "ISC",
+  "devDependencies": {
+    "terser-webpack-plugin": "^2.2.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
